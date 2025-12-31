@@ -45,7 +45,7 @@ except Exception:
 
 # ==================== HCI ENHANCEMENTS ====================
 st.set_page_config(
-    page_title="ai!Grader pro - Intelligent Auto-Grader", 
+    page_title="ai!Auto-Grader Pro", 
     layout="wide",
     page_icon="📚",
     initial_sidebar_state="expanded"
@@ -703,7 +703,7 @@ def generate_feedback_with_jina(prompt_text: str) -> Optional[str]:
 # ---------------------------
 # Enhanced Streamlit UI with HCI Principles
 # ---------------------------
-st.markdown('<div class="main-header">📚 ai!Grader pro - Intelligent Auto-Grader</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">📚 ai!Auto-Grader Pro</div>', unsafe_allow_html=True)
 
 # Sidebar with clear information hierarchy
 with st.sidebar:
